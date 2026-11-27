@@ -1,0 +1,74 @@
+\doxysection{app Namespace Reference}
+\hypertarget{namespaceapp}{}\label{namespaceapp}\index{app@{app}}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a174b8e4c7d4d7363c6f773671defdeff}{home}} ()
+\item 
+\doxymbox{\hyperlink{namespaceapp_a00684baf9fb6c64e4a053038109df5b5}{metrics}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{namespaceapp_a675b4ea702c13dc4b8c05f985a25b496}{app}} = Flask(\+\_\+\+\_\+name\+\_\+\+\_\+)
+\item 
+\doxymbox{\hyperlink{namespaceapp_a48a1184435b6a74acfc63b042329a20f}{REQUEST\+\_\+\+COUNT}} = Counter("{}http\+\_\+requests\+\_\+total"{}, "{}Total de solicitudes HTTP recibidas"{})
+\item 
+\doxymbox{\hyperlink{namespaceapp_a7fa7c11c7474c128736b1d34b15a0d5e}{host}}
+\item 
+\doxymbox{\hyperlink{namespaceapp_ae996542be63ac459a38531f7c2dd0a49}{port}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\begin{DoxyVerb}@file app.py
+@brief Aplicación web Flask con exposición de métricas para Prometheus.
+\end{DoxyVerb}
+ 
+
+\label{namespaceapp_doc-func-members}
+\Hypertarget{namespaceapp_doc-func-members}
+\doxysubsection{Function Documentation}
+\Hypertarget{namespaceapp_a174b8e4c7d4d7363c6f773671defdeff}\index{app@{app}!home@{home}}
+\index{home@{home}!app@{app}}
+\doxysubsubsection{\texorpdfstring{home()}{home()}}
+{\footnotesize\ttfamily \label{namespaceapp_a174b8e4c7d4d7363c6f773671defdeff} 
+home (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Ruta principal que incrementa el contador de peticiones.\end{DoxyVerb}
+ \Hypertarget{namespaceapp_a00684baf9fb6c64e4a053038109df5b5}\index{app@{app}!metrics@{metrics}}
+\index{metrics@{metrics}!app@{app}}
+\doxysubsubsection{\texorpdfstring{metrics()}{metrics()}}
+{\footnotesize\ttfamily \label{namespaceapp_a00684baf9fb6c64e4a053038109df5b5} 
+metrics (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+\begin{DoxyVerb}@brief Expone las métricas en formato compatible con Prometheus.\end{DoxyVerb}
+ 
+
+\label{namespaceapp_doc-var-members}
+\Hypertarget{namespaceapp_doc-var-members}
+\doxysubsection{Variable Documentation}
+\Hypertarget{namespaceapp_a675b4ea702c13dc4b8c05f985a25b496}\index{app@{app}!app@{app}}
+\index{app@{app}!app@{app}}
+\doxysubsubsection{\texorpdfstring{app}{app}}
+{\footnotesize\ttfamily \label{namespaceapp_a675b4ea702c13dc4b8c05f985a25b496} 
+app.\+app = Flask(\+\_\+\+\_\+name\+\_\+\+\_\+)}
+
+\Hypertarget{namespaceapp_a7fa7c11c7474c128736b1d34b15a0d5e}\index{app@{app}!host@{host}}
+\index{host@{host}!app@{app}}
+\doxysubsubsection{\texorpdfstring{host}{host}}
+{\footnotesize\ttfamily \label{namespaceapp_a7fa7c11c7474c128736b1d34b15a0d5e} 
+app.\+host}
+
+\Hypertarget{namespaceapp_ae996542be63ac459a38531f7c2dd0a49}\index{app@{app}!port@{port}}
+\index{port@{port}!app@{app}}
+\doxysubsubsection{\texorpdfstring{port}{port}}
+{\footnotesize\ttfamily \label{namespaceapp_ae996542be63ac459a38531f7c2dd0a49} 
+app.\+port}
+
+\Hypertarget{namespaceapp_a48a1184435b6a74acfc63b042329a20f}\index{app@{app}!REQUEST\_COUNT@{REQUEST\_COUNT}}
+\index{REQUEST\_COUNT@{REQUEST\_COUNT}!app@{app}}
+\doxysubsubsection{\texorpdfstring{REQUEST\_COUNT}{REQUEST\_COUNT}}
+{\footnotesize\ttfamily \label{namespaceapp_a48a1184435b6a74acfc63b042329a20f} 
+app.\+REQUEST\+\_\+\+COUNT = Counter("{}http\+\_\+requests\+\_\+total"{}, "{}Total de solicitudes HTTP recibidas"{})}
+
